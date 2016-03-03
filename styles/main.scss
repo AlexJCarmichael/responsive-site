@@ -1,29 +1,33 @@
 header {
   max-height: 2.5em;
   padding-bottom: .225em;
-  margin-top: -.225em; }
+  margin-top: -.225em;
+}
 
 .logo {
   float: left;
   margin: 1em 0 0 1em;
-  color: #868686; }
+  color: #868686;
+}
 
 .nav-links {
   color: #868686;
   list-style: none;
-  display: inline-block; }
-  .nav-links li:nth-child(2) {
-    color: black; }
+  display: inline-block;
+  li:nth-child(2) {
+    color: black;
+  }
+}
 
 .nav-links > li {
   display: inline-block;
   margin-right: 3.5em;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 .body-top {
   background-image: url("https://images.unsplash.com/2/05.jpg?crop=entropy&dpr=2&fit=crop&fm=jpg&h=575&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300");
   color: white;
   text-align: center;
-  padding: 4em 0; }
-
-/*# sourceMappingURL=main.css.map */
+  padding: 4em 0;
+}
