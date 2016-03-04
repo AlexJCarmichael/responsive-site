@@ -26,4 +26,56 @@ header {
   text-align: center;
   padding: 4em 0; }
 
+.class-middle {
+  border: 1px solid #D0D7D0; }
+
+.middle-container {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #D1D8D1; }
+
+.price-ad {
+  background-color: #4F934E;
+  text-align: center;
+  color: white; }
+  .price-ad h1 {
+    font-size: 5.3em;
+    margin: 0; }
+
+.price-ad-two {
+  background-color: #2A4786;
+  text-align: center;
+  color: white; }
+  .price-ad-two h1 {
+    font-size: 5.3em;
+    margin: 0; }
+
+.price-ad-three {
+  background-color: #111111;
+  text-align: center;
+  color: white; }
+  .price-ad-three h1 {
+    font-size: 5.3em;
+    margin: 0; }
+
+.hype-list {
+  list-style: none;
+  text-align: center;
+  background-color: #F7F7F7; }
+  .hype-list li {
+    border: 1px solid #D1D8D1;
+    display: block; }
+
+.middle-button-holder {
+  width: 6em;
+  margin: 1.5em auto;
+  border: 1px solid #D7D7D7;
+  padding: .6em;
+  border-radius: 1em;
+  text-align: center; }
+  .middle-button-holder a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
+
 /*# sourceMappingURL=main.css.map */
