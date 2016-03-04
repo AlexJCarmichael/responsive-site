@@ -21,7 +21,7 @@ header {
 
 .nav-links > li {
   display: inline-block;
-  margin-right: 3.5em;
+  margin-right: .5em;
   vertical-align: middle;
 }
 
@@ -53,7 +53,7 @@ header {
     letter-spacing: .3em;
   }
     h4:nth-child(3) {
-      color: #A5C8A5;
+      opacity: .5;
     }
     h1 {
       font-size: 5.3em;
@@ -74,7 +74,7 @@ header {
     letter-spacing: .3em;
   }
     h4:nth-child(3) {
-    color: #8F9DC0;
+    opacity: .5;
   }
     h1 {
       font-size: 5.3em;
@@ -95,7 +95,7 @@ header {
       letter-spacing: .3em;
     }
     h4:nth-child(3) {
-      color: #878787;
+      opacity: .5;
     }
     h1 {
       font-size: 5.3em;
@@ -155,4 +155,41 @@ footer {
     a {
       color: #CACACA;
     }
+  }
+
+@media (min-width: 479px)
+{
+  .hype-para {
+    width: 30em;
+  }
+  .body-top {
+    padding: 6em 0;
+  }
+  .nav-links > li {
+    margin-right: 3.5em;
+  }
+}
+
+@media (min-width: 767px)
+{
+  .body-middle {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .middle-container {
+    width: 28%;
+    float: left;
+    margin: 3em 1em 0 1em;
+  }
+  .body-bottom {
+    overflow: hidden;
+    width: 98%;
+    margin: 2em auto 0 auto;
+  }
+  .hype-para {
+    width: 40%;
+    float:left;
+    margin: 2em auto 0 auto;
+  }
 }
