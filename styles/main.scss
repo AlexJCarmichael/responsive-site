@@ -40,14 +40,26 @@ header {
     width: 95%;
     margin: 0 auto;
     border: 1px solid #D1D8D1;
+    margin-top: 2em;
 }
 
 .price-ad {
   background-color: #4F934E;
   text-align: center;
   color: white;
+  padding: 1em 0;
+  border-bottom: 1px solid #D1D8D1;
+  h4:first-child {
+    letter-spacing: .3em;
+  }
+    h4:nth-child(3) {
+      color: #A5C8A5;
+    }
     h1 {
       font-size: 5.3em;
+      margin: 0;
+    }
+    h4 {
       margin: 0;
     }
 }
@@ -56,8 +68,19 @@ header {
   background-color: #2A4786;
   text-align: center;
   color: white;
+  padding: 1em 0;
+  border-bottom: 1px solid #D1D8D1;
+  h4:first-child {
+    letter-spacing: .3em;
+  }
+    h4:nth-child(3) {
+    color: #8F9DC0;
+  }
     h1 {
       font-size: 5.3em;
+      margin: 0;
+    }
+    h4 {
       margin: 0;
     }
 }
@@ -66,8 +89,19 @@ header {
   background-color: #111111;
   text-align: center;
   color: white;
+  padding: 1em 0;
+  border-bottom: 1px solid #D1D8D1;
+    h4:first-child {
+      letter-spacing: .3em;
+    }
+    h4:nth-child(3) {
+      color: #878787;
+    }
     h1 {
       font-size: 5.3em;
+      margin: 0;
+    }
+    h4 {
       margin: 0;
     }
 }
@@ -76,9 +110,13 @@ header {
   list-style: none;
   text-align: center;
   background-color: #F7F7F7;
+  padding: 0;
+  margin: 0;
   li {
-    border: 1px solid #D1D8D1;
+    border-bottom: 1px solid #D1D8D1;
       display: block;
+      color: #5F6D72;
+      padding: .5em;
 
   }
 }
@@ -95,4 +133,26 @@ header {
     color: black;
     font-weight: bold;
   }
+}
+
+.hype-para {
+  color: #69767B;
+  width: 20em;
+  margin:  3.55em auto 0 auto;
+  h3 {
+    text-align: left;
+    color: black;
+    letter-spacing: .3em;
+  }
+}
+
+footer {
+  background-color: black;
+  color: #7B7B7B;
+  text-align: center;
+  padding: 1.875em 0;
+  margin-top: 2em;
+    a {
+      color: #CACACA;
+    }
 }
