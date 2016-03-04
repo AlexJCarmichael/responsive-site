@@ -176,20 +176,27 @@ footer {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    flex-direction: row;
   }
   .middle-container {
-    width: 28%;
-    float: left;
-    margin: 3em 1em 0 1em;
+    width: 23%;
+    margin: 3em 1em 0 0;
   }
   .body-bottom {
     overflow: hidden;
-    width: 98%;
-    margin: 2em auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 6em;
   }
   .hype-para {
-    width: 40%;
+    width: 35%;
     float:left;
-    margin: 2em auto 0 auto;
+  }
+  .body-top
+  {
+    h1 {
+      font-size: 3em;
+    }
   }
 }
